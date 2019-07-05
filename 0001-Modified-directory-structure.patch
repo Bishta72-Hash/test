@@ -1,0 +1,32 @@
+From ef0ef78e40c876f2e7f18fbb39cea8242e3c4f60 Mon Sep 17 00:00:00 2001
+From: Anil singh Bisht <Abisht@BHAVNACORP.NET>
+Date: Thu, 4 Jul 2019 11:16:02 +0530
+Subject: [PATCH] Modified directory structure
+
+---
+ first.txt     | 1 -
+ src/first.txt | 2 ++
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ delete mode 100644 first.txt
+ create mode 100644 src/first.txt
+
+diff --git a/first.txt b/first.txt
+deleted file mode 100644
+index fe4f02a..0000000
+--- a/first.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-first
+\ No newline at end of file
+diff --git a/src/first.txt b/src/first.txt
+new file mode 100644
+index 0000000..0bfc124
+--- /dev/null
++++ b/src/first.txt
+@@ -0,0 +1,2 @@
++first
++second
+\ No newline at end of file
+-- 
+2.21.0.windows.1
+
