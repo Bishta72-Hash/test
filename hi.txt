@@ -1,2 +1,3 @@
 changed file hi elloThis is my first file
 line2
+line3
