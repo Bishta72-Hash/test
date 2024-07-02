@@ -92,5 +92,11 @@
     <Analyzer Include="..\packages\AWSSDK.Athena.3.7.0.37\analyzers\dotnet\cs\AWSSDK.Athena.CodeAnalysis.dll" />
     <Analyzer Include="..\packages\AWSSDK.S3.3.7.0.12\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\R2\ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{2f7f6382-b843-422b-b6f0-b7048288c5b2}</Project>
+      <Name>ClassLibrary1</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

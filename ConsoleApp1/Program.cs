@@ -10,14 +10,17 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        DateTime currentDate = DateTime.Now;
-        Console.WriteLine("Local Time: " + currentDate);
-        // Specify the desired time zone (Mountain Standard Time)
-        string timeZoneId = "Mountain Standard Time";
-        TimeZoneInfo mountainZone = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId);
-        // Convert the local time to the desired time zone
-        DateTime mountainTime = TimeZoneInfo.ConvertTime(currentDate, mountainZone);
-        Console.WriteLine("Mountain Time: " + mountainTime);
+        //DateTime currentDate = DateTime.Now;
+        //Console.WriteLine("Local Time: " + currentDate);
+        //// Specify the desired time zone (Mountain Standard Time)
+        //string timeZoneId = "Mountain Standard Time";
+        //TimeZoneInfo mountainZone = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId);
+        //// Convert the local time to the desired time zone
+        //DateTime mountainTime = TimeZoneInfo.ConvertTime(currentDate, mountainZone);
+        //Console.WriteLine("Mountain Time: " + mountainTime);
+        ClassLibrary1.Class1 a = new ClassLibrary1.Class1(); 
+        Console.WriteLine(a.sum(1,2));
+
     }
 
     private static void testMethod()
