@@ -1,0 +1,17 @@
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+[Bb]uilds/
+packages/
+
+**/*.aps
+**/*.dbmdl
+**/*.eto
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
